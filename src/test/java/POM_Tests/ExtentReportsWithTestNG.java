@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -17,6 +19,7 @@ public class ExtentReportsWithTestNG {
 	
 	private static WebDriver driver;
 
+	@BeforeMethod
 	@BeforeTest
 	public void setUp() {
 		
@@ -26,8 +29,7 @@ public class ExtentReportsWithTestNG {
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
-		driver.manage().window().maximize();
-		driver.manage().window().maximize();
+		
 		
 	}
 
