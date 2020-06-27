@@ -18,8 +18,18 @@ public class AppleSearchTest1 {
 	
 	public static void appleSearchTest() {
 		
-		WebDriverManager.chromedriver().setup(); 
+		//WebDriverManager.chromedriver().setup(); 
+		//driver = new ChromeDriver();
+		
+		
+		
+		
+		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
 		driver = new ChromeDriver();
+		
+		
+		
+		
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		
@@ -31,7 +41,7 @@ public class AppleSearchTest1 {
 		searchPageObj.inputSearch("macbook");
 		searchPageObj.searchEnter();
 		
-		//driver.close();
+		driver.close();
 		
 	}
 	

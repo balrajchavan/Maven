@@ -18,8 +18,12 @@ public class AmazonSearch {
 	
 	public static void amazonSearch() {
 		
-		WebDriverManager.chromedriver().setup(); 
+		System.setProperty("webdriver.gecko.driver","drivers/geckodriver");
+		
+		//WebDriverManager.chromedriver().setup(); 
 		WebDriver driver = new ChromeDriver();
+		
+		
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
