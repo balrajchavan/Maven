@@ -4,10 +4,7 @@
   <test thread-count="5" parallel="classes" name="Test">
     <classes>
       <class name="POM_Tests.LoginTest_testNG2_dataProvider"/>
-      <class name="POM_Tests.AppleSearchTest2_testNG_Demo"/>
-      <class name="POM_Tests.ExtentReportsWithTestNG"/>
-      <class name="POM_Tests.AppleSearchTest2_testNG"/>
-      <class name="utils.ExcelDataProvider"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
