@@ -27,6 +27,7 @@ public class ExtentReportsWithTestNG {
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		
 	}
 
