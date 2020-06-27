@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="72" passed="72" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-27T11:01:26 BST" name="Suite" finished-at="2020-06-27T11:05:03 BST" duration-ms="216255">
+    <groups>
+    </groups>
+    <test started-at="2020-06-27T11:01:26 BST" name="Test" finished-at="2020-06-27T11:05:03 BST" duration-ms="216255">
+      <class name="POM_Tests.AppleSearchTest2_testNG_Demo">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:POM_Tests.AppleSearchTest2_testNG_Demo@55536d9e]" started-at="2020-06-27T11:01:28 BST" name="setUpTest" finished-at="2020-06-27T11:01:29 BST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="appleSearchTest()[pri:0, instance:POM_Tests.AppleSearchTest2_testNG_Demo@55536d9e]" started-at="2020-06-27T11:01:31 BST" name="appleSearchTest" finished-at="2020-06-27T11:01:41 BST" duration-ms="9923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleSearchTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:POM_Tests.AppleSearchTest2_testNG_Demo@55536d9e]" started-at="2020-06-27T11:05:02 BST" name="tearDownTest" finished-at="2020-06-27T11:05:02 BST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- POM_Tests.AppleSearchTest2_testNG_Demo -->
+      <class name="POM_Tests.AppleSearchTest2_testNG">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:26 BST" name="setUpTest" finished-at="2020-06-27T11:01:28 BST" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:32 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:35 BST" duration-ms="3056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:35 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:36 BST" duration-ms="1760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:36 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:38 BST" duration-ms="1903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:38 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:40 BST" duration-ms="1552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:40 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:42 BST" duration-ms="1851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:42 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:44 BST" duration-ms="1984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:44 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:45 BST" duration-ms="1440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:45 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:47 BST" duration-ms="1477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:47 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:48 BST" duration-ms="1543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:48 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:50 BST" duration-ms="1463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:50 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:51 BST" duration-ms="1509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:51 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:53 BST" duration-ms="1690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:53 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:54 BST" duration-ms="1495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:54 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:56 BST" duration-ms="1527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:56 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:57 BST" duration-ms="1421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:57 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:59 BST" duration-ms="1585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleSearchTest()[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:01:59 BST" name="appleSearchTest" finished-at="2020-06-27T11:02:05 BST" duration-ms="5947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleSearchTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:POM_Tests.AppleSearchTest2_testNG@3d1cfad4]" started-at="2020-06-27T11:05:01 BST" name="tearDownTest" finished-at="2020-06-27T11:05:02 BST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- POM_Tests.AppleSearchTest2_testNG -->
+      <class name="POM_Tests.ExtentReportsWithTestNG">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:POM_Tests.ExtentReportsWithTestNG@747edf66]" started-at="2020-06-27T11:01:29 BST" name="setUp" finished-at="2020-06-27T11:01:30 BST" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:0, instance:POM_Tests.ExtentReportsWithTestNG@747edf66]" started-at="2020-06-27T11:01:31 BST" name="test1" finished-at="2020-06-27T11:01:39 BST" duration-ms="7988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:POM_Tests.ExtentReportsWithTestNG@747edf66]" started-at="2020-06-27T11:05:02 BST" name="tearDownTest" finished-at="2020-06-27T11:05:02 BST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- POM_Tests.ExtentReportsWithTestNG -->
+      <class name="utils.ExcelDataProvider">
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:01:32 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:01:39 BST" duration-ms="7666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:01:39 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:01:47 BST" duration-ms="7328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:01:47 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:01:52 BST" duration-ms="5408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:01:52 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:01:58 BST" duration-ms="5737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:01:58 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:04 BST" duration-ms="6060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:04 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:08 BST" duration-ms="3936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:08 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:10 BST" duration-ms="2699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:10 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:13 BST" duration-ms="2810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:13 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:16 BST" duration-ms="2941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:16 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:19 BST" duration-ms="2503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:19 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:21 BST" duration-ms="2627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:21 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:24 BST" duration-ms="2731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:24 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:26 BST" duration-ms="2530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:26 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:30 BST" duration-ms="3424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:30 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:34 BST" duration-ms="4547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:34 BST" name="test1" data-provider="test1Data" finished-at="2020-06-27T11:02:39 BST" duration-ms="4155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:39 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:02:42 BST" duration-ms="3779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:42 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:02:50 BST" duration-ms="7402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:50 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:02:53 BST" duration-ms="3189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:53 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:02:59 BST" duration-ms="6401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:02:59 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:03:02 BST" duration-ms="2866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:03:02 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:03:09 BST" duration-ms="6604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:03:09 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:03:13 BST" duration-ms="3679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:03:13 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:03:20 BST" duration-ms="7674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:03:20 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:03:24 BST" duration-ms="4025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:03:24 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:03:34 BST" duration-ms="9856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:03:34 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:03:39 BST" duration-ms="4885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:03:39 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:03:50 BST" duration-ms="10820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:03:50 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:03:56 BST" duration-ms="5933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:03:56 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:04:06 BST" duration-ms="10355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:04:06 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:04:12 BST" duration-ms="5448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:04:12 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:04:23 BST" duration-ms="11538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:04:23 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:04:31 BST" duration-ms="7667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:04:31 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:04:44 BST" duration-ms="13100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:04:44 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:04:51 BST" duration-ms="7108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:utils.ExcelDataProvider@62230c58]" started-at="2020-06-27T11:04:51 BST" name="test2" data-provider="test2Data" finished-at="2020-06-27T11:05:01 BST" duration-ms="10430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- utils.ExcelDataProvider -->
+      <class name="POM_Tests.LoginTest_testNG2_dataProvider">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:30 BST" name="setUpTest" finished-at="2020-06-27T11:01:31 BST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:32 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:35 BST" duration-ms="3082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:35 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:36 BST" duration-ms="1541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:36 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:38 BST" duration-ms="1862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:38 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:40 BST" duration-ms="1502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:40 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:42 BST" duration-ms="2037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:42 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:43 BST" duration-ms="1958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:44 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:45 BST" duration-ms="1507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:45 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:46 BST" duration-ms="1232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:46 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:48 BST" duration-ms="1545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:48 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:49 BST" duration-ms="1353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:49 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:50 BST" duration-ms="1168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:50 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:52 BST" duration-ms="1359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:52 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:53 BST" duration-ms="1256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:53 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:54 BST" duration-ms="1497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:54 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:56 BST" duration-ms="1298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleLoginTest(java.lang.String, java.lang.String)[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:56 BST" name="appleLoginTest" data-provider="loginTestData" finished-at="2020-06-27T11:01:57 BST" duration-ms="1337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleLoginTest -->
+        <test-method signature="appleSearchTest()[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:01:57 BST" name="appleSearchTest" finished-at="2020-06-27T11:02:03 BST" duration-ms="6159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleSearchTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:POM_Tests.LoginTest_testNG2_dataProvider@346d61be]" started-at="2020-06-27T11:05:02 BST" name="tearDownTest" finished-at="2020-06-27T11:05:03 BST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- POM_Tests.LoginTest_testNG2_dataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
