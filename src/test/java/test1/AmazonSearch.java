@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class AmazonSearch {
 
 	public static void main(String[] args) {
@@ -14,9 +16,9 @@ public class AmazonSearch {
 	
 	public static void amazonSearch() {
 		
-		System.setProperty("webdriver.gecko.driver","drivers/geckodriver");
+		//System.setProperty("webdriver.gecko.driver","drivers/geckodriver");
 		
-		//WebDriverManager.chromedriver().setup(); 
+		WebDriverManager.chromedriver().setup(); 
 		WebDriver driver = new ChromeDriver();
 		
 		
