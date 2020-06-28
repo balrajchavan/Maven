@@ -6,8 +6,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import POM_Pages.AppleSearchPage;
@@ -29,18 +30,19 @@ public class AppleSearchTest_Parallel {
 	public void setUpTest(String browserName) {
 		
 				
-		if (browserName.equalsIgnoreCase("firefox")) {
+		if (browserName.equalsIgnoreCase("chrome")) {
 			
 			
-			//WebDriverManager.chromedriver().setup(); 
-			System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+			WebDriverManager.chromedriver().setup(); 
+			//System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+			
 			
 			driver = new ChromeDriver();
 			
 			System.out.println("chrome started successfully");
 		}
 
-		else if(browserName.equalsIgnoreCase("chrome")) {
+		else if(browserName.equalsIgnoreCase("firefox")) {
 			
 			
 			WebDriverManager.firefoxdriver().setup(); 
@@ -57,7 +59,7 @@ public class AppleSearchTest_Parallel {
 	}
 	
 	@Test
-	public static void appleSearchTest() throws InterruptedException {
+	public static void appleSearchTest()  {
 		
 		
 		
@@ -67,21 +69,25 @@ public class AppleSearchTest_Parallel {
 		searchPageObj.enterSearchBox();
 		searchPageObj.inputSearch("macbook");
 		searchPageObj.searchEnter();
-		Thread.sleep(4000);
+		
 		
 	}
 	
 	
-	@AfterSuite
-	public void tearDownTest() {
+	@AfterClass
+	public void tearDownTest()  {
 		
-		driver.close();
+		//driver.close();
+		
 		driver.quit();
 		
 		System.out.println("Test completed successfully");
 		
 
 	}
+	
+	
+	
 	
 	
 	

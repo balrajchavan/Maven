@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests" thread-count="3" >
+<suite name="Suite" thread-count="5" parallel="tests">
   
 
 
-	
-	
-	<test  name="Test with firefox">
-	<parameter name="browserName" value="firefox"></parameter>
-    <classes>
-      <class name="POM_Tests.AppleSearchTest_Parallel"/>
-    </classes>
-	</test> <!-- Test -->
-	
-	
-	
+
+
 	<test  name="Test with chrome">
 	<parameter name="browserName" value="chrome"></parameter>
     <classes>
@@ -22,6 +13,12 @@
     </classes>
 	</test> <!-- Test -->
 	
+	<test  name="Test with firefox">
+	<parameter name="browserName" value="firefox"></parameter>
+    <classes>
+      <class name="POM_Tests.AppleSearchTest_Parallel"/>
+    </classes>
+	</test> <!-- Test -->
 	
 	
 	
