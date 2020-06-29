@@ -67,7 +67,7 @@ public class AmazonSearch_applitools {
 		eyes.open(driver, "Apple website", "Apple Test3", new RectangleSize(1000, 600));
 
 		// Navigate the browser to the "ACME" demo app.
-		driver.get("https://apple.com/ipad/");
+		driver.get("https://apple.com");
 
 		// To see visual bugs after the first run, use the commented line below instead.
 		// driver.get("https://demo.applitools.com/index_v2.html");

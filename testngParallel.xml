@@ -19,7 +19,39 @@
       <class name="POM_Tests.AppleSearchTest_Parallel"/>
     </classes>
 	</test> <!-- Test -->
+	<test  name="Test with firefox1">
+	<parameter name="browserName" value="firefox"></parameter>
+    <classes>
+      <class name="POM_Tests.AppleSearchTest_Parallel"/>
+    </classes>
+	</test> <!-- Test -->
 	
+	
+	
+	<test  name="Test with chrome2">
+	<parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="POM_Tests.AppleSearchTest_Parallel"/>
+    </classes>
+	</test> <!-- Test -->
+	
+	<test  name="Test with opera">
+	<parameter name="browserName" value="opera"></parameter>
+    <classes>
+      <class name="POM_Tests.AppleSearchTest_Parallel"/>
+    </classes>
+	</test> <!-- Test -->
+	
+	
+	
+	
+	
+	<test  name="Test with chrome3">
+	<parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="POM_Tests.AppleSearchTest_Parallel"/>
+    </classes>
+	</test> <!-- Test -->
 	
 	
 </suite> <!-- Suite -->
