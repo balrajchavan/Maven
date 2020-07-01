@@ -5,7 +5,12 @@ node(){
     stage('check what is in dir'){
         sh 'ls'
     }
+    stage('clone directory'){
+        git clone git@github.com:balrajchavan/Maven
+    }
     stage('run test'){
+        dir('Maven'){
             sh 'mvn clean'
+        }
     }
 }
