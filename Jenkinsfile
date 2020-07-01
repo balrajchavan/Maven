@@ -6,7 +6,7 @@ node(){
         sh 'ls'
     }
     stage('remove folder'){
-        sh 'rm -rf'
+        sh 'rm -rf ./'
     }
     stage('clone directory'){
         sh 'git clone git@github.com:balrajchavan/Maven'
