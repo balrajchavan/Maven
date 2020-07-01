@@ -1,8 +1,8 @@
 node(){
     stage('Checkout code') {
-        steps {
-            checkout scm
-        }
+      
+        checkout scm
+        
     }
     
     stage('check current dir'){
