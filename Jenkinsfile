@@ -6,7 +6,7 @@ node(){
         sh 'ls'
     }
     stage('clone directory'){
-        git clone git@github.com:balrajchavan/Maven
+        sh 'git clone git@github.com:balrajchavan/Maven'
     }
     stage('run test'){
         dir('Maven'){
